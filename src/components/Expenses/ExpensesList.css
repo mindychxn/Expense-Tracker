@@ -1,9 +1,19 @@
 .expenses-list {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .expenses-list__fallback {
-    color: white;
-    text-align: center;
-  }
+  list-style: none;
+  padding: 0;
+}
+
+.fallback-container {
+  background-color: #292929;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.expenses-list__fallback {
+  color: white;
+  font-family: 'Italiana', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 1.5vw;
+}

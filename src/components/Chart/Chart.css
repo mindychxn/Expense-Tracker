@@ -1,9 +1,27 @@
 .chart {
-    padding: 1rem;
-    border-radius: 12px;
-    background-color: #f8dfff;
     text-align: center;
     display: flex;
     justify-content: space-around;
-    height: 10rem;
+    height: 10vw;
+    width: 90%;
+    margin: 0vw auto;
+  }
+
+  .chart-container{
+    padding: 1rem 0;
+    border-radius: 12px;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    width: 85%;
+    margin: 2vw auto;
+  }
+
+  .chart-title{
+    font: inherit;
+    font-size: 1.8vw;
+    display: flex;
+    color: black;
+    text-align: center;
+    margin: 0 auto 1vw auto;
   }

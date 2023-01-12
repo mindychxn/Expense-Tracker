@@ -1,15 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital@0;1&family=Cormorant+Upright:wght@300;400&family=Italiana&family=Montserrat:wght@200;400&family=Playfair+Display&family=Red+Hat+Display&display=swap');
 
 * {
   box-sizing: border-box;
 }
 
 html {
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Italiana', sans-serif;
+  letter-spacing: 0.1vw;;
+  color: #292929;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Cormorant Upright', serif;
+  font-weight: 300;
+  font-size: 4.5vw;
+  margin-bottom: 2vw;
 }
 
 body {
   margin: 0;
-  background-color: #3f3f3f;
+  background-color: #ecebe6;
+}
+
+p {
+  font-family: 'Cormorant Upright', serif;
+  letter-spacing: 3px;
 }
 
